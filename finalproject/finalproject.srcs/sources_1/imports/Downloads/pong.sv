@@ -68,8 +68,6 @@ module pong (
         .v_sync   (S_vsync),
         .pixel_row(S_pixel_row),
         .pixel_col(S_pixel_col),
-        .bat_x    (batpos),
-        .serve    (btn0),
         .red      (S_red),
         .green    (S_green),
         .blue     (S_blue),
